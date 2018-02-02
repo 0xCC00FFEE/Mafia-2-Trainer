@@ -11,6 +11,6 @@ Currently available features:
 
 # Notes:
 - This is an external hack, which means it's a DLL to be injected in the game's process.
-- The current hacks patches the ammo/health decrease instructions in memory on-the-fly, which makes your health and ammo, as well as your enemies health and ammo infinite. (troll?)
+- The current hacks patch the ammo/health decrease instructions in memory on-the-fly, which makes your health and ammo, as well as your enemies health and ammo infinite. (troll?)
 
 --------------------------------------------------------------------------
