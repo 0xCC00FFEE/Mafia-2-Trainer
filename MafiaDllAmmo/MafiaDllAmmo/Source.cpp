@@ -18,7 +18,7 @@ BOOL HookMe(void* HookFunc, void* myFunc, int len)
 	*(BYTE*)HookFunc = 0xE9;
 	*(DWORD*)((DWORD)HookFunc + 1) = dwRelativeAdd;
 
-	VirtualProtect(HookFunc, len, dwOldProtection, NULL);
+	VirtualProtect(HookFunc, len, dwOldProtection, &dwOldProtection);
 
 	return true;
 }
